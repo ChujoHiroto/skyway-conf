@@ -3,7 +3,7 @@ import Peer, { SfuRoom } from "skyway-js";
 export const initPeer = (forceTurn: boolean): Promise<Peer> => {
   return new Promise((resolve, reject) => {
     const peer = new Peer({
-      key: "",
+      key: "3ec62835-f8b8-45e4-a769-2ac9e3c68828",
       debug: 2,
       config: {
         iceTransportPolicy: forceTurn ? "relay" : "all",
